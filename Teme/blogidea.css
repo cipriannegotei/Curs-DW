@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    overflow: visible;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(245, 245, 141);
+    height: 20em;
+    width: 30em;
+}
+.r1 {
+    font-family: Arial;
+}
+#titlu {
+    color: green;
+    display: inline;
+}
+.r2 {
+    color: blue;
+}
+#continut {
+    size: 1.2em;
+}

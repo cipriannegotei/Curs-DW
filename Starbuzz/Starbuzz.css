@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    color: forestgreen;
+    font-size: 2em;
+    /* text-align: center; */
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-color: cyan;
+    text-decoration-style: dotted;
+}
+
+h4 {
+    margin-top: 2.5em;
+
+}
+
+p {
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(60, 245, 60);
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#ceai {
+    color: rgb(228, 116, 11);
+}
+
+.coffee {
+    color: rgb(194, 38, 38);
+}
+
+blockquote {
+    overflow: visible;
+    border: 3px dashed rgb(214, 214, 214);
+    padding: 0.5em;
+    margin: auto;
+    height: 9em;
+    width: 22em;
+    background-color: rgb(76, 191, 195);
+    color: rgb(214, 106, 106);
+    background-image: url('background.gif');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

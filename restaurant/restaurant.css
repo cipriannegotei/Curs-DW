@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    --blue-color: #33baaf;
+    --orange-color: #f6af33;
+}
+.welcome {
+    /*ca sa aliniem cercul in centru jos */
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bg-header.jpg);
+    background-size: cover;
+    /*parallax effect: */
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: flex-end;
+}
+.logo {
+    width: 6em;
+    height: 6em;
+    background-image: url(img/logo.png);
+    background-size: cover;
+    opacity: 0.9;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgba(255, 255, 255, 0.90);
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+li {
+    padding-left: 1em;
+}
+header a {
+    font-family: 'Alegreya';
+    font-size: 1.4em;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+h1 {
+    font-family: 'Amatic SC';
+    text-align: center;
+    line-height: 2.5em;
+    margin: 1em 0;
+    position: relative;
+}
+
+h1 .title-intro {
+    color: var(--blue-color);
+    font-size: 2em;
+}
+.title-intro::before, .title-intro::after {
+    content: '-';
+}
+h1 .title {
+    color: var(--orange-color);
+    font-size: 3em;
+}
+p {
+    font-family: 'Alegreya';
+    font-size: 1.3em;
+    padding: 0.5em 1em;
+}
+.ambience {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/ambiance.jpg');
+    background-size: cover;
+}
+article {
+    margin-bottom: 1.5em;
+}
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    /* facem un patrat proportional cu dimensiunea textului */
+    height: 6em;
+    width: 6em;
+    /* dam cercul mai jos cu o jumatate */
+    position: relative;
+    top: 3em;
+    /* aliniem sageata pe centru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    /* desenam un patrat */
+    height: 25%;
+    width: 25%;
+    /* punem borduri la stanga si jos */
+    border-left: 3px solid var(--blue-color);
+    border-bottom: 3px solid var(--blue-color);
+    /* rotim patratul */
+    transform: rotate(-45deg);
+    /* ducem sageata mai sus */
+    position: relative;
+    bottom: 22%;
+
+}

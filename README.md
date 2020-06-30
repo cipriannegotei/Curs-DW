@@ -1,2 +1,4 @@
-# Curs-DW
-Exercitii si teme
+# html_css
+Cursuri si exercitii.
+
+Salut! Acesta este primul meu proiect.
